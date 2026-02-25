@@ -16,7 +16,23 @@ Sistemul monetar al LUCI folosește unitatea *Bees* pentru micro-tranzacții.
 - 1 Bee = 0.00000001 LUCI
 - 100,000,000 Bees = 1.00000000 LUCI
 
-## ⛏ Mineze (Mining)
+## ⛏ Minare (Mining)
 Rețeaua LUCI permite utilizatorilor obișnuiți să mineze folosind:
 1. *GPU (Plăci Video):* Algoritmul KawPow.
 2. *CPU (Procesoare):* Algoritmul GhostRider.
+## ⛏️ Ghid de Minare (Mining Guide)
+
+Pentru a începe să generezi *Bees*, poți folosi următoarele programe de minare compatibile cu algoritmii noștri:
+
+### 1. Minare cu Procesorul (CPU - GhostRider)
+Recomandăm *SRBMiner-MULTI*. 
+*   *Configurație:* Folosește algoritmul ghostrider.
+*   *Port:* 18332
+
+### 2. Minare cu Placa Video (GPU - KawPow)
+Recomandăm *T-Rex Miner* sau *Gminer*.
+*   *Configurație:* Folosește algoritmul kawpow.
+*   *Port:* 18333
+
+### 🧱 Cum te conectezi la Nod
+Momentan, rețeaua rulează în regim de testare locală. Pentru a te conecta la nodul principal, folosește adresa IP a serverului tău în fișierul de configurare al minerului.
